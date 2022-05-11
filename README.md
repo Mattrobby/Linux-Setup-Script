@@ -33,6 +33,8 @@ Installs the following apps with the system package manager (`apt`, `pacman`, or
 - Python 3
 - OpenJDK
 - CMake
+- Monero GUI
+- Steam
 
 ### Flatpak Apps
 
@@ -51,7 +53,6 @@ Installs the following `flatpaks` from [Flathub](https://flathub.org):
 - LibreOffice
 - OnlyOffice
 - Microsoft Teams 
-- Monero GUI
 - OBS Studio
 - Signal
 - Slack
@@ -62,14 +63,12 @@ Installs the following `flatpaks` from [Flathub](https://flathub.org):
 - Zoom
 - Peek
 - VSCodium
-- GitKraken
 - Bitwarden
 - Bottles
 - Wireshark
 - Xournal++
 - Spotify
 - Obsidian
-- Steam
 - Discord
 
 #### Flatpaks for Gnome
