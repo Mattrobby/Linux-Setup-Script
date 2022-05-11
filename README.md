@@ -18,13 +18,65 @@ The setup part of this script does the following:
 Installs the following apps with the system package manager (`apt`, `pacman`, or `dnf`)
 
 - vim
-- nvim 
+- Neovim 
 - zsh
 - Brave Browser
+- htop
+- Gnome System Monitor
+- Gparted
+- NordVPN
+- Alacritty
+- Virtural Machine Manager
+- Ranger 
+- Solaar
+- JetBrains Toolbox
+- Python 3
+- OpenJDK
+- CMake
 
 ### Flatpak Apps
 
 Installs the following `flatpaks` from [Flathub](https://flathub.org): 
+
+- Blender
+- Extensions
+- Ungoogled Chromium
+- FreeCAD
+- Gimp 
+- Flameshot 
+- MPV Media Player
+- Anki
+- MarkText
+- Flatseal
+- LibreOffice
+- OnlyOffice
+- Microsoft Teams 
+- Monero GUI
+- OBS Studio
+- Signal
+- Slack
+- qBittorrent
+- Tor Browser 
+- Typora 
+- VLC Media Player 
+- Zoom
+- Peek
+- VSCodium
+- GitKraken
+- Bitwarden
+- Bottles
+- Wireshark
+- Xournal++
+- Spotify
+- Obsidian
+- Steam
+- Discord
+
+#### Flatpaks for Gnome
+
+- Extentions
+- Extension Manager 
+- Login Manager Setting 
 
 ## Other
 
