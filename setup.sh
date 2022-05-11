@@ -76,6 +76,7 @@ install_flatpak_apps () {
 	"com.github.xournalpp.xournalpp"	# Xournal++
 	"md.obsidian.Obsidian" 			# Obsidian
 	"com.discordapp.Discord"		# Discord
+	'org.gnome.DejaDup'			# Déjà Dup Backups
     )
 
     gnomeFlatpaks = (

@@ -70,6 +70,7 @@ Installs the following `flatpaks` from [Flathub](https://flathub.org):
 - Spotify
 - Obsidian
 - Discord
+- Déjà Dup Backups
 
 #### Flatpaks for Gnome
 
