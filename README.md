@@ -1,19 +1,21 @@
-# Fedora Install Script 
+# Linux Install Script 
 
 ## Setup 
+
+### Fedora 
 
 The setup part of this script does the following: 
 
 - Update and Upgrade Fedora 
-- Allows 3rd party packages for `DNF`
-- Configures enter for `DNF` to be `y` instead of `n`
+- Allows 3rd party packages for `dnf`
+- Configures enter for `dnf` to be `y` instead of `n`
 - Adds Fedora's community repositorys ()
 
 ## Installs Apps 
 
 ### System Apps
 
-It installs the following apps with `DNF`
+Installs the following apps with the system package manager (`apt`, `pacman`, or `dnf`)
 
 - vim
 - nvim 
