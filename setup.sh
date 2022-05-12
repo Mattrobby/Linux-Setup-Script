@@ -50,6 +50,7 @@ install_dnf_apps () {
 	"cmake"			# CMake
 	"steam"			# Steam
 	"brave-browser"		# Brave Browser
+	"onedrive"		# Onedrive Client for Linux
     ) 
 	
 	allAppsDNF=""
