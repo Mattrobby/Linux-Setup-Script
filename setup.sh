@@ -5,8 +5,12 @@
 # ------------------ Setup DNF -----------------
 
 dnf_setup () {
-    # Make default dnf option yes 
-    echo "defultyes=True" >> /etc/dnf/dnf.conf
+    # DNF config options
+    echo "fastestmirror=True" >> /etc/dnf/dnf.conf
+    echo "max_parallel_downloads=10" >> /etc/dnf/dnf.conf
+    echo "defaultyes=True" >> /etc/dnf/dnf.conf
+    echo "keepcache=True" >> /etc/dnf/dnf.conf
+
     # Updateing and Upgrading Fedora 
     dnf -y update
     dnf -y upgrade
@@ -17,20 +21,23 @@ dnf_setup () {
     dnf -y install \
   https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
-    # Adding _____ Repos
+	# Installing Apps
+	install_dnf_apps 
+	install_flatpak_apps
+
 }
 
 # ------------------ DNF Apps ------------------
 
 install_dnf_apps () {
-    # --------- Adding 3rd party repos ---------
 
     # Brave Browser
     dnf -y install dnf-plugins-core
     dnf -y config-manager --add-repo https://brave-browser-rpm-release.s3.brave.com/x86_64/
     rpm --import https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
 
-    # ------------------------------------------
+	# SpeedTest CLI (https://www.speedtest.net/apps/cli) 
+	# TODO: Write the function for this 
 
     dnfApps=(
 	"neovim" 						# Neovim
@@ -122,7 +129,5 @@ read DISTRO
 
 if (( $DISTRO == 1 )); then
 	dnf_setup
-	install_dnf_apps 
-	install_flatpak_apps
 fi 
 
