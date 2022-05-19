@@ -36,6 +36,7 @@ Installs the following apps with the system package manager (`apt`, `pacman`, or
 - Monero GUI
 - Steam
 - OneDrive Client for Linux
+- xcopy
 
 ### Flatpak Apps
 
