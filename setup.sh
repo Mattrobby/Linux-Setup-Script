@@ -106,6 +106,7 @@ install_flatpak_apps () {
 	"md.obsidian.Obsidian" 						# Obsidian
 	"com.discordapp.Discord"					# Discord
 	"org.gnome.DejaDup"							# Déjà Dup Backups
+	"org.inkscape.Inkscape"						# Inkscape
     )
 
     gnomeFlatpaks=(

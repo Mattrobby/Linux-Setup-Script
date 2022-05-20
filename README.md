@@ -73,6 +73,7 @@ Installs the following `flatpaks` from [Flathub](https://flathub.org):
 - Obsidian
 - Discord
 - Déjà Dup Backups
+- Inkscape
 
 #### Flatpaks for Gnome
 
