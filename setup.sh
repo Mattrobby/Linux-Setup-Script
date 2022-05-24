@@ -59,6 +59,7 @@ install_dnf_apps () {
 	"brave-browser"					# Brave Browser
 	"onedrive"						# Onedrive Client for Linux
 	"xclip"							# xclip
+	"pandoc"						# Pandoc
     ) 
 	
 	allAppsDNF=""
@@ -121,7 +122,14 @@ install_flatpak_apps () {
 
 	echo "$allAppsFlatpak"	
 	flatpak install flathub -y $allAppsFlatpak
-} 
+}
+
+# ------------------ Power10K ------------------ 
+# TODO: write power10k install script
+
+power10k() {
+
+}
 
 # ----------------- What to do -----------------
 

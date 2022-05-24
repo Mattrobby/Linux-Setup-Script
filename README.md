@@ -37,6 +37,7 @@ Installs the following apps with the system package manager (`apt`, `pacman`, or
 - Steam
 - OneDrive Client for Linux
 - xcopy
+- Pandoc
 
 ### Flatpak Apps
 
