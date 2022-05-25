@@ -41,7 +41,6 @@ install_dnf_apps () {
 
     dnfApps=(
 	"neovim" 						# Neovim
-	"vim"							# Vim
 	"zsh"							# zsh
 	"htop"							# hop
 	"gnome-system-monitor"			# Gnome System Monitor
@@ -60,6 +59,8 @@ install_dnf_apps () {
 	"onedrive"						# Onedrive Client for Linux
 	"xclip"							# xclip
 	"pandoc"						# Pandoc
+	"alien"							# Alien
+	"gh"							# GitHub CLI
     ) 
 	
 	allAppsDNF=""
@@ -125,9 +126,9 @@ install_flatpak_apps () {
 }
 
 # ------------------ Power10K ------------------ 
-# TODO: write power10k install script
+# TODO: write powerlevel10k install script
 
-power10k() {
+powerlevel10k() {
 
 }
 

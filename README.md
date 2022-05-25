@@ -9,7 +9,7 @@ The setup part of this script does the following:
 - Update and Upgrade Fedora 
 - Allows 3rd party packages for `dnf`
 - Configures enter for `dnf` to be `y` instead of `n`
-- Adds Fedora's community repositorys ()
+- Adds Fedora's community repositorys
 
 ## Installs Apps 
 
@@ -17,7 +17,6 @@ The setup part of this script does the following:
 
 Installs the following apps with the system package manager (`apt`, `pacman`, or `dnf`)
 
-- vim
 - Neovim 
 - zsh
 - Brave Browser
@@ -38,6 +37,8 @@ Installs the following apps with the system package manager (`apt`, `pacman`, or
 - OneDrive Client for Linux
 - xcopy
 - Pandoc
+- Alien
+- GitHub CLI
 
 ### Flatpak Apps
 
@@ -85,5 +86,5 @@ Installs the following `flatpaks` from [Flathub](https://flathub.org):
 ## Other
 
 - Makes `zsh` the default shell
-- Installs [power10k]() 
+- Installs [powerlevel10k](https://github.com/romkatv/powerlevel10k) 
 
