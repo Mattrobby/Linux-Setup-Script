@@ -39,6 +39,7 @@ Installs the following apps with the system package manager (`apt`, `pacman`, or
 - Pandoc
 - Alien
 - GitHub CLI
+- Pip 
 
 ### Flatpak Apps
 

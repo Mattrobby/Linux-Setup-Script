@@ -43,24 +43,25 @@ install_dnf_apps () {
 	"neovim" 						# Neovim
 	"zsh"							# zsh
 	"htop"							# hop
-	"gnome-system-monitor"			# Gnome System Monitor
+	"gnome-system-monitor"					# Gnome System Monitor
 	"gparted"						# Gparted
 	"alacritty"						# Alacritty
-	"virt-manager"					# Virtual Machine Manager
-	"virt-viewer"					# Linux Virtaul Machine 
+	"virt-manager"						# Virtual Machine Manager
+	"virt-viewer"						# Linux Virtaul Machine 
 	"qemu-kvm"						# Linux Virtual Machine
 	"ranger"						# Ranger File Manager
 	"solaar"						# Solaar
 	"python3"						# Python 3
-	"java-latest-openjdk.x86_64"	# Latest verson of openJDK
+	"java-latest-openjdk.x86_64"				# Latest verson of openJDK
 	"cmake"							# CMake
 	"steam"							# Steam
-	"brave-browser"					# Brave Browser
+	"brave-browser"						# Brave Browser
 	"onedrive"						# Onedrive Client for Linux
 	"xclip"							# xclip
 	"pandoc"						# Pandoc
 	"alien"							# Alien
 	"gh"							# GitHub CLI
+	"pip"							# Pip (Python's Package Manager) 
     ) 
 	
 	allAppsDNF=""
@@ -79,36 +80,36 @@ install_flatpak_apps () {
 	flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
     
     flatpakApps=(
-    "com.spotify.Client" 						# Spotify
-	"org.blender.Blender" 						# Blender
-	"com.github.Eloston.UngoogledChromium" 		# Ungoogled Chromium
-	"org.freecadweb.FreeCAD" 					# FreeCAD		
-	"org.gimp.GIMP"								# Gimp
-	"org.flameshot.Flameshot"					# Flameshot
-	"io.mpv.Mpv" 								# MPV Media Player
-	"net.ankiweb.Anki"							# Anki
+    "com.spotify.Client" 					# Spotify
+	"org.blender.Blender" 					# Blender
+	"com.github.Eloston.UngoogledChromium" 			# Ungoogled Chromium
+	"org.freecadweb.FreeCAD" 				# FreeCAD		
+	"org.gimp.GIMP"						# Gimp
+	"org.flameshot.Flameshot"				# Flameshot
+	"io.mpv.Mpv" 						# MPV Media Player
+	"net.ankiweb.Anki"					# Anki
 	"com.github.marktext.marktext" 				# MarkText
 	"com.github.tchx84.Flatseal"				# Flatseal
 	"org.onlyoffice.desktopeditors"				# OnlyOffice
-	"com.microsoft.Teams"						# Microsoft Teams
-	"com.obsproject.Studio"						# OBS Studio
-	"flathub org.signal.Signal"					# Signal
-	"com.slack.Slack" 							# Slack
+	"com.microsoft.Teams"					# Microsoft Teams
+	"com.obsproject.Studio"					# OBS Studio
+	"flathub org.signal.Signal"				# Signal
+	"com.slack.Slack" 					# Slack
 	"org.qbittorrent.qBittorrent" 				# qBittorrent
-	"com.github.micahflee.torbrowser-launcher" 	# Tor Browser
-	"io.typora.Typora" 							# Typora
-	"org.videolan.VLC"							# VLC Media Player
-	"us.zoom.Zoom" 								# Zoom
-	"com.uploadedlobster.peek" 					# Peek
-	"com.vscodium.codium"						# VSCodium
-	"com.bitwarden.desktop"						# Bitwarden
-	"com.usebottles.bottles" 					# Bottles
-	"org.wireshark.Wireshark"					# Wireshark
+	"com.github.micahflee.torbrowser-launcher" 		# Tor Browser
+	"io.typora.Typora" 					# Typora
+	"org.videolan.VLC"					# VLC Media Player
+	"us.zoom.Zoom" 						# Zoom
+	"com.uploadedlobster.peek" 				# Peek
+	"com.vscodium.codium"					# VSCodium
+	"com.bitwarden.desktop"					# Bitwarden
+	"com.usebottles.bottles" 				# Bottles
+	"org.wireshark.Wireshark"				# Wireshark
 	"com.github.xournalpp.xournalpp"			# Xournal++
-	"md.obsidian.Obsidian" 						# Obsidian
-	"com.discordapp.Discord"					# Discord
-	"org.gnome.DejaDup"							# Déjà Dup Backups
-	"org.inkscape.Inkscape"						# Inkscape
+	"md.obsidian.Obsidian" 					# Obsidian
+	"com.discordapp.Discord"				# Discord
+	"org.gnome.DejaDup"					# Déjà Dup Backups
+	"org.inkscape.Inkscape"					# Inkscape
     )
 
     gnomeFlatpaks=(
